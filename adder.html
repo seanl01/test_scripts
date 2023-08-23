@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Calculator</title>
+</head>
+<body>
+    <script defer>
+        function addNumber(){
+            let a = Number(document.querySelector("#a").value);
+            let b = Number(document.querySelector("#b").value);
+
+            const p = document.querySelector("#output");
+
+            p.innerHTML = a + b;
+        }
+    
+    </script>
+
+    <style>
+        h3 {
+            border: 1px solid blue;
+        }
+    </style>
+
+    <h1>Add two numbers</h1>
+    <label for='a'>first number:</label>
+    <input type='number' id='a'>
+    <label for='b'>second number:</label>
+    <input type='number' id='b'>
+    <button id="add" onclick="addNumber()">Add</button>
+
+    <h3 id="output"></h3>
+</body>
+</html>
