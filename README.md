@@ -1,6 +1,7 @@
 # test_scripts
 Contains test scripts for Selenium Show and Tell
 ### Files
+- `adder.html` contains test page
 - `test_test.py` contains code exported from selenium IDE
 - `test_iter.py` contains edited code
 
